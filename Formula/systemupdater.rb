@@ -2,7 +2,7 @@ class Systemupdater < Formula
   desc "Unified update runner for Linux and macOS package managers and dev tools"
   homepage "https://github.com/Piotrunius/SystemUpdater"
   url "https://github.com/Piotrunius/SystemUpdater/archive/refs/tags/v1.4.3.tar.gz"
-  sha256 "03688be555533a5dcf18100d57b87d7dfed102eac0f1f419604707f9d3f0ed7f"
+  sha256 "f1b6f9c193a4c66c6c8f3dfb9da7a0f74d1f5eb4d6152e4e94d92726f88013ca"
   version "1.4.3"
   license "MIT"
 
