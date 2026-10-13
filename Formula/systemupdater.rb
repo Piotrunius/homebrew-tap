@@ -18,7 +18,7 @@ class Systemupdater < Formula
     python = Formula["python@3"].opt_bin/"python3"
     (bin/"sysupdate").write <<~EOS
       #!/bin/bash
-      exec "#{python}" "#{libexec}/main.py" ""
+      exec "#{python}" "#{libexec}/main.py" "$@"
     EOS
   end
 
