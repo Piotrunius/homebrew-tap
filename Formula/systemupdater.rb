@@ -19,6 +19,9 @@ class Systemupdater < Formula
       #!/bin/bash
       exec "#{python}" "#{libexec}/main.py" "$@"
     EOS
+    (bin/"sysupdate").chmod 0755
+
+    generate_completions_from_executable(bin/"sysupdate", "--generate-completion", shells: [:bash, :zsh, :fish])
   end
 
   test do
